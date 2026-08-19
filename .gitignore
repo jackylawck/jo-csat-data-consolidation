@@ -1,0 +1,13 @@
+# 忽略真實資料庫與試算表
+*.xlsx
+*.xls
+*.csv
+!sample_data/*.xlsx
+
+# 忽略 Python 暫存與環境
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.env
+.DS_Store
